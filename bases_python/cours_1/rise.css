@@ -1,0 +1,333 @@
+section.present {
+    scrollbar-width: thin;
+    scrollbar-color: #282828 #111;
+}
+
+div.input_area {
+    background: #282828;
+    border: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.output_area pre {
+    color: #f8f8f0;
+    background: #282828;
+}
+
+.ctb_global_show .ctb_show+.input_area,
+.ctb_global_show .ctb_show+div.text_cell_input,
+.ctb_global_show .ctb_show~div.text_cell_render {
+    border-radius: 5px;
+}
+
+.rendered_html pre code {
+    background-color: #282828;
+}
+
+.rendered_html code {
+    font-family: 'Hack NF', Hack, monospace;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85%;
+}
+
+.rendered_html code.cm-s-ipython {
+    font-family: 'Hack NF', Hack, monospace;
+    color: #f8f8f0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60%;
+    line-height: 1.2em;
+    padding: 10px;
+}
+
+.rise-enabled .output_subarea {
+    color: #f8f8f0;
+    background: #282828;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+input.raw_input {
+    font-family: 'Hack NF';
+    background: #111;
+    border: 0px;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 5px;
+}
+
+div.cell {
+    border-width: 0px;
+}
+
+div.cell.selected::before {
+    background: #e7ad52;
+}
+
+.prompt {
+    font-family: 'Hack NF', Hack, monospace;
+}
+
+.reveal pre {
+    font-family: 'Hack NF', Hack, monospace;
+    background: #111111;
+    border-radius: 5px;
+}
+
+.reveal code {
+    font-family: 'Hack NF', Hack, monospace;
+}
+
+.rise-enabled .reveal a {
+    color: #e7ad52;
+}
+
+.cm-s-ipython.CodeMirror {
+    font-family: 'Hack NF', Hack, monospace;
+    color: #f8f8f0;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.cm-s-ipython div.CodeMirror-selected {
+    background: #49483e;
+}
+
+.CodeMirror-gutters {
+    border: none;
+    border-right: 1px solid #49483e !important;
+    background-color: #49483e !important;
+    background: #49483e !important;
+    border-radius: 0px;
+    white-space: nowrap;
+}
+
+.cm-s-ipython .CodeMirror-gutters {
+    background: #49483e;
+    border: none;
+    border-radius: 0px;
+    width: 36px;
+}
+
+.cm-s-ipython .CodeMirror-linenumber {
+    color: #75715e;
+}
+
+.CodeMirror-sizer {
+    margin-left: 40px;
+}
+
+.CodeMirror-linenumber,
+div.CodeMirror-linenumber,
+.CodeMirror-gutter.CodeMirror-linenumberdiv.CodeMirror-gutter.CodeMirror-linenumber {
+    padding-right: 1px;
+    margin-left: 0px;
+    margin: 0px;
+    width: 26px !important;
+    padding: 0px;
+    text-align: right;
+}
+
+.CodeMirror-linenumber {
+    color: #75715e;
+}
+
+.cm-s-ipython .CodeMirror-cursor {
+    border-left: 2px solid #0095ff !important;
+}
+
+.cm-s-ipython span.cm-comment {
+    color: #75715e;
+    font-style: italic;
+}
+
+.cm-s-ipython span.cm-atom {
+    color: #ae81ff;
+}
+
+.cm-s-ipython span.cm-number {
+    color: #ae81ff;
+}
+
+.cm-s-ipython span.cm-property {
+    color: #f8f8f0;
+}
+
+.cm-s-ipython span.cm-attribute {
+    color: #f8f8f0;
+}
+
+.cm-s-ipython span.cm-keyword {
+    color: #f92672;
+    font-weight: normal;
+}
+
+.cm-s-ipython span.cm-string {
+    color: #e6db74;
+}
+
+.cm-s-ipython span.cm-meta {
+    color: #fd971f;
+}
+
+.cm-s-ipython span.cm-operator {
+    color: #a6e22e;
+}
+
+.cm-s-ipython span.cm-builtin {
+    color: #a6e22e;
+}
+
+.cm-s-ipython span.cm-variable {
+    color: #f8f8f0;
+}
+
+.cm-s-ipython span.cm-variable-2 {
+    color: #a6e22e;
+}
+
+.cm-s-ipython span.cm-variable-3 {
+    color: #fd971f;
+}
+
+.cm-s-ipython span.cm-def {
+    color: #a6e22e;
+    font-weight: normal;
+}
+
+.cm-s-ipython span.cm-error {
+    background: rgba(249, 38, 114, .4);
+}
+
+.cm-s-ipython span.cm-tag {
+    color: #ae81ff;
+}
+
+.cm-s-ipython span.cm-link {
+    color: #a6e22e;
+}
+
+.cm-s-ipython span.cm-storage {
+    color: #ae81ff;
+}
+
+.cm-s-ipython span.cm-entity {
+    color: #a6e22e;
+}
+
+.cm-s-ipython span.cm-quote {
+    color: #e6db74;
+}
+
+div.CodeMirror span.CodeMirror-matchingbracket {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #49483e;
+}
+
+div.CodeMirror span.CodeMirror-nonmatchingbracket {
+    color: #ffffff;
+    font-weight: bold;
+    background: rgba(249, 38, 114, .4) !important;
+}
+
+.cm-header-1 {
+    font-size: 215%;
+}
+
+.cm-header-2 {
+    font-size: 180%;
+}
+
+.cm-header-3 {
+    font-size: 150%;
+}
+
+.cm-header-4 {
+    font-size: 120%;
+}
+
+.cm-header-5 {
+    font-size: 100%;
+}
+
+.cm-s-default .cm-hr {
+    color: #a6e22e;
+}
+
+div.cell.text_cell .cm-s-default .cm-header {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #a6e22e !important;
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+
+div.cell.text_cell .cm-s-default span.cm-variable-2 {
+    color: #f8f8f0 !important;
+}
+
+div.cell.text_cell .cm-s-default span.cm-variable-3 {
+    color: #fd971f !important;
+}
+
+.cm-s-default span.cm-comment {
+    color: #75715e !important;
+}
+
+.cm-s-default .cm-tag {
+    color: #529b2f;
+}
+
+.cm-s-default .cm-builtin {
+    color: #a6e22e;
+}
+
+.cm-s-default .cm-string {
+    color: #e6db74;
+}
+
+.cm-s-default .cm-keyword {
+    color: #f92672;
+}
+
+.cm-s-default .cm-number {
+    color: #ae81ff;
+}
+
+.cm-s-default .cm-error {
+    color: #ae81ff;
+}
+
+.cm-s-default .cm-link {
+    color: #a6e22e;
+}
+
+.cm-s-default .cm-atom {
+    color: #ae81ff;
+}
+
+.cm-s-default .cm-def {
+    color: #a6e22e;
+}
+
+.CodeMirror-cursor {
+    border-left: 2px solid #0095ff !important;
+    border-right: none;
+    width: 0;
+}
+
+.cm-s-default div.CodeMirror-selected {
+    background: #49483e;
+}
+
+.cm-s-default .cm-selected {
+    background: #49483e;
+}

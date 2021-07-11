@@ -1,0 +1,5 @@
+jupyter
+jupyterthemes
+nbconvert==5.6.1
+RISE
+jupyter_contrib_nbextensions
