@@ -1,5 +1,5 @@
 jupyter
 jupyterthemes
-nbconvert==5.6.1
+nbconvert
 RISE
 jupyter_contrib_nbextensions
